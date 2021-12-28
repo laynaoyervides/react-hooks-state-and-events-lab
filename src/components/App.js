@@ -9,7 +9,7 @@ function App() {
   const [toggleMode, setMode] = useState(false);
   const appClass = toggleMode ? "App dark" : "App light"
 
-  function handleClick(event) {
+  function handlleweClick(event) {
     setMode(!toggleMode);
   }
 
